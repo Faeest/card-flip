@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+     <link rel='stylesheet' href='../assets/bootstrap-5.0/css/bootstrap.min.css'>
+     <link rel='stylesheet' href='../assets/font-awesome/css/all.min.css'>
+     <link rel='stylesheet' href='style.css'>
+     <link rel="icon" href="./assets/favico.ico" type="image/x-icon">
+     <meta charset='UTF-8'>
+     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+     <title>Flip the Card</title>
+</head>
+<body>
+     <div class="position-fixed border border-2 rounded-pill hp-bar">
+          <div class="hp-status border"></div>
+     </div>
+     <main class="container pt-4 d-flex utama justify-content-center align-items-center py-2 pb-0 haha">
+     </main>
+     <div class="position-absolute jcic absolute-full but-play">
+          <div class="btn btn-outline-primary btn-lg px-5" onclick="clickStart()"><i class="fas fa-play"></i></div>
+     </div>
+     <div class="position-fixed absolute-full win-congrat d-none row flex-column jcic">
+          <div class="cong-tittle col-md-8 all-caps jcic fs-1">
+               <i class="far fa-smile me-2 fs-3" id="smile"></i>
+               <span class="op-0">Conrats you are a winner</span>
+          </div>
+          <div class="col-12 jcic mt-5">
+               <div class="btn btn-outline-danger cong-res-btn op-0" onclick="resetVal()"><i class="fas fa-sync-alt fs-5 me-2"></i>Retry</div>
+          </div>
+     </div>
+     <script src="../assets/jquery/jquery-3.5.1.min.js"></script>
+     <script src="../assets/p5/p5.min.js"></script>
+     <script src='../assets/gsap-public/minified/gsap.min.js'></script>
+     <script src="../assets/bootstrap-5.0/js/bootstrap.min.js"></script>
+     <script src="art.js"></script>
+     <script src='script.js'></script>
+</body>
+</html>

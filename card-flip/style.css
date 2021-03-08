@@ -1,0 +1,106 @@
+*{
+	user-select:none;
+}
+body{
+     overflow-x: hidden;
+}
+.kadet{
+     flex: unset !important;
+     margin: 0px !important;
+     transition: .2s;
+     cursor: pointer;
+}
+.pembatas{
+     max-width: 600px;
+     min-width: 400px;
+}
+.kadet:hover{
+     background: #212529;
+     color:#f8f9fa;
+     border-radius: .3rem;
+}
+.w50{
+     flex-basis: 50% !important;
+}
+.w100{
+     flex-basis: 100% !important;
+}
+.w33{
+     flex-basis: 33% !important;
+}
+.w25{
+     flex-basis: 25% !important;
+}
+.w10{
+     flex-basis: 10% !important;
+}
+.opop:hover{
+     opacity: 1;
+}
+.opop{
+     opacity: 0;
+}
+.haha{
+     min-height: 100vh;
+}
+.hp-bar{
+     width: 20%;
+     height: 2vw;
+     /* border: #212529 1px solid; */
+     top: 10px;
+     left: 10px;
+     min-width: 100px;
+     min-height: 20px;
+     overflow: hidden;
+}
+.hp-status{
+     width: 100%;
+     height: 100%;
+     background: #d7263ecc;
+}
+.jcic{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.absolute-full{
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+}
+.but-play{
+     background: #343a4011;
+}
+.but-play > div{
+     background: #f8f9fa;
+}
+.but-play > div > i{
+     transition: .2s;
+}
+.but-play > div:hover .fas{
+     font-size: 2rem;
+     margin-left: 8px;
+     padding-right: 1rem !important;
+     padding-left: 1rem !important;
+}
+.win-congrat{
+     background: #f8f9fa;
+     transition: 1s;
+}
+.cong-tittle{
+     height: 50%;
+     background: #ffffffee;
+}
+.all-caps{
+     font-variant-caps: all-small-caps;
+}
+.cong-res-btn>i{
+     transition: 1s;
+}
+.cong-res-btn:hover i{
+     transform: rotate(540deg);
+}
+.op-0{
+     opacity: 0;
+}
